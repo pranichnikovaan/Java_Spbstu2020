@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="433.0" prefWidth="762.0" style="-fx-background-color: #444444;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainWindowController">
+    <children>
+        <TextField fx:id="input_field" layoutX="33.0" layoutY="327.0" prefHeight="38.0" prefWidth="498.0" promptText="Enter your command" />
+        <Button fx:id="add_button" layoutX="556.0" layoutY="26.0" mnemonicParsing="false" onAction="#showAddWindow" prefHeight="38.0" prefWidth="182.0" style="-fx-border-radius: 50px; -fx-background-color: #FFFFFF;" text="Add" textAlignment="CENTER">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="delete_button" layoutX="556.0" layoutY="84.0" mnemonicParsing="false" onAction="#handleDeleteButton" prefHeight="38.0" prefWidth="182.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 10;" text="Delete" textAlignment="CENTER">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="filter_button" layoutX="556.0" layoutY="143.0" mnemonicParsing="false" onAction="#handleFilterButton" prefHeight="38.0" prefWidth="182.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 10;" text="Filter" textAlignment="CENTER">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="showAll_button" layoutX="556.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleShowAllButton" prefHeight="38.0" prefWidth="182.0" style="-fx-background-color: #FFFFFF; -fx-border-radius: 10;" text="Show all" textAlignment="CENTER">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="Exit_button" layoutX="33.0" layoutY="380.0" mnemonicParsing="false" onAction="#handleExitButton" prefHeight="38.0" prefWidth="87.0" style="-fx-background-color: #FFFFFF;" text="Exit">
+            <font>
+                <Font name="System Bold" size="16.0" />
+            </font>
+        </Button>
+        <Button fx:id="execute_button" layoutX="560.0" layoutY="327.0" mnemonicParsing="false" onAction="#handleExecuteButton" prefHeight="38.0" prefWidth="87.0" style="-fx-background-color: #FFFFFF;" text="Execute">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Button>
+      <TextArea fx:id="output_field" editable="false" layoutX="33.0" layoutY="26.0" prefHeight="272.0" prefWidth="498.0" />
+      <Button fx:id="clear_button" layoutX="556.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleClearButton" prefHeight="38.0" prefWidth="182.0" style="-fx-border-radius: 50px; -fx-background-color: #FFFFFF;" text="Clear" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Pane fx:id="add_window" focusTraversable="true" layoutX="300.0" layoutY="21.0" prefHeight="208.0" prefWidth="234.0" style="-fx-background-color: #444444; -fx-border-color: #000000;" visible="false">
+         <children>
+            <TextField fx:id="name_field" layoutX="49.0" layoutY="57.0" prefHeight="25.0" prefWidth="133.0" promptText="Name" />
+            <TextField fx:id="price_field" layoutX="49.0" layoutY="102.0" prefHeight="25.0" prefWidth="133.0" promptText="Price" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="65.0" layoutY="14.0" text="Add Product" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+            </Label>
+             <Button fx:id="done1_button" layoutX="39.0" layoutY="156.0" mnemonicParsing="false" onAction="#handleDoneAddButton" prefHeight="31.0" prefWidth="60.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" text="Done">
+                 <font>
+                     <Font name="System Bold" size="13.0" />
+                 </font>
+             </Button>
+             <Button fx:id="cancel1_button" layoutX="128.0" layoutY="156.0" mnemonicParsing="false" onAction="#handleCancelAddButton" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" text="Cancel">
+                 <font>
+                     <Font name="System Bold" size="13.0" />
+                 </font>
+             </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="filter_window" focusTraversable="true" layoutX="304.0" layoutY="59.0" prefHeight="200.0" prefWidth="234.0" style="-fx-background-color: #444444;" visible="false">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="58.0" layoutY="21.0" prefHeight="25.0" prefWidth="110.0" text="Filter by price" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="price1_field" layoutX="52.0" layoutY="68.0" prefHeight="25.0" prefWidth="123.0" promptText="From" />
+            <TextField fx:id="price2_field" layoutX="52.0" layoutY="106.0" prefHeight="25.0" prefWidth="123.0" promptText="To" />
+            <Button fx:id="done2_button" layoutX="41.0" layoutY="148.0" mnemonicParsing="false" onAction="#handleDoneFilterButton" prefHeight="31.0" prefWidth="60.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" text="Done">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancel2_button" layoutX="126.0" layoutY="148.0" mnemonicParsing="false" onAction="#handleCancelFilterButton" style="-fx-background-color: #FFFFFF; -fx-border-color: #000000;" text="Cancel">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Pane fx:id="delete_window" focusTraversable="true" layoutX="317.0" layoutY="58.0" prefHeight="122.0" prefWidth="220.0" style="-fx-background-color: #444444;" visible="false">
+         <children>
+            <Label layoutX="72.0" layoutY="14.0" text="Delete" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <TextField fx:id="delete_field" layoutX="42.0" layoutY="54.0" prefHeight="25.0" prefWidth="123.0" promptText="Name" />
+            <Button fx:id="done3_button" layoutX="42.0" layoutY="89.0" mnemonicParsing="false" onAction="#handleDoneDeleteButton" style="-fx-background-color: #FFFFFF;" text="Done">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="cancel3_button" layoutX="113.0" layoutY="89.0" mnemonicParsing="false" onAction="#handleCancelDeleteButton" style="-fx-background-color: #FFFFFF;" text="Cancel">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>
