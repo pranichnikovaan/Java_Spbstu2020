@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08a79328-d5fa-4391-a8f8-af0aa678d81b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lab3/lab3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/lab3/Main.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Xi1aa97RuOK27gRO35ONh1bx5g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab3.Main" />
+      <module name="lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lab3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../calculator-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../coursera/forcomp" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../coursera/funsets" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../coursera/objsets" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../coursera/patmat" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../coursera/recfun" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../opensource_coding/hsse-fp-2019-2/tasks/course_work" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08a79328-d5fa-4391-a8f8-af0aa678d81b" name="Default Changelist" comment="" />
+      <created>1581514164199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581514164199</updated>
+      <workItem from="1581514170664" duration="33000" />
+      <workItem from="1581514239824" duration="14830000" />
+      <workItem from="1582370161472" duration="11029000" />
+      <workItem from="1583166397060" duration="234000" />
+      <workItem from="1583168920829" duration="4356000" />
+      <workItem from="1583245543196" duration="387000" />
+      <workItem from="1583310213525" duration="4067000" />
+      <workItem from="1583420784410" duration="3154000" />
+    </task>
+    <task id="LOCAL-00001" summary="made code more readable">
+      <created>1583171642153</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583171642153</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finally">
+      <created>1583332312187</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583332312188</updated>
+    </task>
+    <task id="LOCAL-00003" summary="deleted atomic int">
+      <created>1583350187688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583350187688</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added time">
+      <created>1583428427408</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583428427408</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="made code more readable" />
+    <MESSAGE value="finally" />
+    <MESSAGE value="deleted atomic int" />
+    <MESSAGE value="added time" />
+    <option name="LAST_COMMIT_MESSAGE" value="added time" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583331562625">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="418" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1583331562625" />
+    <state x="768" y="265" width="374" height="581" key="#com.intellij.ide.util.MemberChooser" timestamp="1583330884878">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="768" y="265" width="374" height="581" key="#com.intellij.ide.util.MemberChooser/0.25.1920.1055@0.25.1920.1055" timestamp="1583330884878" />
+    <state x="517" y="94" width="875" height="922" key="CommitChangelistDialog2" timestamp="1583428427265">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="517" y="94" width="875" height="922" key="CommitChangelistDialog2/0.25.1920.1055@0.25.1920.1055" timestamp="1583428427265" />
+    <state x="743" y="310" width="424" height="490" key="FileChooserDialogImpl" timestamp="1583188027846">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="743" y="310" width="424" height="490" key="FileChooserDialogImpl/0.25.1920.1055@0.25.1920.1055" timestamp="1583188027846" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1590168559347">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1590168559347" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1583429613870" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1590168559347">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1590168559347" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1583429613869" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1590168559347">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1590168559347" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1583429613869" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1590168559347">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1590168559347" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1583429613870" />
+    <state width="1874" height="341" key="GridCell.Tab.1.bottom" timestamp="1581530328574">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="341" key="GridCell.Tab.1.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1581530328574" />
+    <state width="1874" height="341" key="GridCell.Tab.1.center" timestamp="1581530328572">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="341" key="GridCell.Tab.1.center/0.25.1920.1055@0.25.1920.1055" timestamp="1581530328572" />
+    <state width="1874" height="341" key="GridCell.Tab.1.left" timestamp="1581530328572">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="341" key="GridCell.Tab.1.left/0.25.1920.1055@0.25.1920.1055" timestamp="1581530328572" />
+    <state width="1874" height="341" key="GridCell.Tab.1.right" timestamp="1581530328573">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1874" height="341" key="GridCell.Tab.1.right/0.25.1920.1055@0.25.1920.1055" timestamp="1581530328573" />
+    <state x="555" y="288" width="800" height="534" key="Vcs.Push.Dialog.v2" timestamp="1583428429148">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="555" y="288" width="800" height="534" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1583428429148" />
+    <state x="605" y="263" width="710" height="578" key="find.popup" timestamp="1583331143184">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="605" y="263" width="710" height="578" key="find.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1583331143184" />
+    <state x="624" y="252" key="run.anything.popup" timestamp="1583171165790">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="624" y="252" key="run.anything.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1583171165790" />
+  </component>
+</project>
